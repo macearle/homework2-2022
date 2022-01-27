@@ -7,10 +7,6 @@ body{
     margin-right: 25px;
 }
 
-.intro{
-    border-radius: 15px;
-    margin-top: 15px;
-}
 
 h1{
     font-size: 48px;
@@ -23,11 +19,7 @@ h2{
     text-shadow: 2px 4px #808080;
 } 
 
-span{
-    text-transform: uppercase;
-    text-decoration: underline;
-    text-shadow: none;
-}
+
 
 
 p{
@@ -49,6 +41,10 @@ div{
     border: 3px solid #FFFFFF;
 }
 
+.intro{
+    border-radius: 15px;
+    margin-top: 15px;
+}
 
 .red{
     background:#ff0000; 
@@ -73,11 +69,6 @@ div{
     
 }
 
-.yellow h2{
-    text-shadow: 2px 4px #c7e2c7;
-    color: #000000;
-}
-
 .green{
     background:#008500;
     text-align: left;
@@ -85,6 +76,16 @@ div{
     border-width: 0px 10px 3px 0px;
 }
 
+.yellow h2{
+    text-shadow: 2px 4px #c7e2c7;
+    color: #000000;
+}
+
+span{
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: none;
+}
 footer{
     background:linear-gradient(90deg, #000000,#0000ff,  #0066ff, #000000);
 }
